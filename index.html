@@ -17,9 +17,21 @@
         <nav>
             <div class="row nav__row">
                 <div class="nav__logo">
-                <!--  -->Nav Logo here<!--  -->
+                    <a href="#top">
+                        <img src="./assets/logo.svg" alt="Treact Logo">
+                    </a>
                 </div>
-                <!--  -->Enter Nav Links here<!--  -->
+                <!-- Links -->
+                <div class="nav__links">
+
+                    <a class="nav__link" href="#top">About</a>
+                    <a class="nav__link" href="#top">Blog</a>
+                    <a class="nav__link" href="#pricing">Pricing</a>
+                    <a class="nav__link" href="#start">Contact Us</a>
+                    <a class="nav__link" href="#top">Log In</a>
+                    <a class="nav__link nav__link--primary" href="#top">Sign Up</a>
+                    
+                </div>
                 <button class="btn__menu" onclick="openMenu()">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -31,22 +43,25 @@
                 </button>
             </div>
         </nav>
+        <!-- Modal Links -->
         <div class="modal">
             <button class="btn__menu btn__menu--close" onclick="closeMenu()">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="light___StyledCloseIcon-lj69nl-14 fASujC">
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <line x1="18" y1="6" x2="6" y2="18"></line>
                     <line x1="6" y1="6" x2="18" y2="18"></line>
                 </svg>
             </button>
+
             <div class="modal__links">
-                <a class="modal__link">About</a>
-                <a class="modal__link">Blog</a>
-                <a class="modal__link">Pricing</a>
-                <a class="modal__link">Contact Us</a>
-                <a class="modal__link">Login</a>
-                <a class="modal__link modal__link--primary">Sign Up</a>
+
+                <a class="modal__link" href="#top" onclick="closeMenu()">About</a>
+                <a class="modal__link" href="#top" onclick="closeMenu()">Blog</a>
+                <a class="modal__link" href="#pricing" onclick="closeMenu()">Pricing</a>
+                <a class="modal__link" href="#start" onclick="closeMenu()">Contact Us</a>
+                <a class="modal__link" href="#top" onclick="closeMenu()">Log In</a>
+                <a class="modal__link modal__link--primary" href="#top" onclick="closeMenu()">Sign Up</a>
+
             </div>
         </div>
         <header>
