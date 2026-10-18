@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -17,8 +17,10 @@
         <nav>
             <div class="row nav__row">
                 <div class="nav__logo">
-                    <a href="#top">
-                        <img src="./assets/logo.svg" alt="Treact Logo">
+                    <a href="#top" class="nav__logo--link">
+                        <img src="./assets/logo.svg" alt="Treact Logo"
+                        class="nav__logo--img">
+                        <span class="nav__logo--text">Treact</span>
                     </a>
                 </div>
                 <!-- Links -->
@@ -28,7 +30,7 @@
                     <a class="nav__link" href="#top">Blog</a>
                     <a class="nav__link" href="#pricing">Pricing</a>
                     <a class="nav__link" href="#start">Contact Us</a>
-                    <a class="nav__link" href="#top">Log In</a>
+                    <a class="nav__link nav__link--login" href="#top">Log In</a>
                     <a class="nav__link nav__link--primary" href="#top">Sign Up</a>
                     
                 </div>
@@ -68,6 +70,7 @@
             <div class="container">
                 <div class="row">
                     <!--  -->Enter Header / About Us Section<!--  -->
+            </div>
             </div>
         </header>
     </section>

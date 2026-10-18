@@ -52,6 +52,7 @@ NAVBAR ↓
 nav {
     display: flex;
     padding-top: 32px;
+    align-items: center;
 }
 
 .nav__row {
@@ -59,14 +60,53 @@ nav {
     justify-content: space-between;
 }
 
-.nav__logo {
+.nav__logo--link {
+    text-decoration: none;
     display: flex;
     align-items: center;
     margin: 8px 0;
     padding-bottom: 4px;
 }
 
+.nav__logo--img {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+}
 
+.nav__logo--text {
+    font-size: 22px;
+    font-weight: 750;
+}
+
+
+.nav__link {
+    text-decoration: none;
+    color: #371d3d;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 8px 16px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+}
+.nav__link--primary {
+    color: #f7fafc;
+    padding: 12px 32px;
+    background: #6415ff;
+    border-radius: 500px;
+    border: none;
+}
+
+.nav__link--login {
+    margin-left: 60px;
+    color: #6415ff;
+}
 .btn__menu {
     display: none;
     background: transparent;
@@ -305,13 +345,16 @@ MOBILE RESPONSIVENESS ↓
     }
 }
 
-@media(max-width: 640px) {
+@media(max-width: 1024px) {
     .container {
         padding: 80px 0;
     }
     .nav__logo {
         margin: 8px 0;
         padding-bottom: 4px;
+    }
+    .nav__links {
+        display: none;
     }
     main {
         margin-bottom: 80px;
