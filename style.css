@@ -75,6 +75,7 @@ nav {
 }
 
 .nav__logo--text {
+    color: #5e35b1;
     font-size: 22px;
     font-weight: 750;
 }
@@ -82,7 +83,7 @@ nav {
 
 .nav__link {
     text-decoration: none;
-    color: #371d3d;
+    color: #221341;
     font-size: 14px;
     font-weight: 600;
     line-height: 1.5;
@@ -97,14 +98,15 @@ nav {
 }
 .nav__link--primary {
     color: #f7fafc;
-    padding: 12px 32px;
+    padding: 10px 28px;
     background: #6415ff;
-    border-radius: 500px;
+    border-radius: 700px;
     border: none;
 }
 
 .nav__link--login {
-    margin-left: 60px;
+    margin-left: 22px;
+    margin-right: 12px;
     color: #6415ff;
 }
 .btn__menu {
