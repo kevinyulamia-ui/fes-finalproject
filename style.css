@@ -228,7 +228,51 @@ header .row {
 
 .header__email--btn:hover {
     background-color: #5011cc;
+}
 
+.header__content {
+    max-width: 490px;
+}
+
+.header__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+
+.header__text {
+    color: #57585a;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
+
+.header__customers--title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #484d4b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    margin-bottom: 16px;
+}
+
+.header__customers--img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header__img {
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.header__img--img {
+    max-width: 100%;
+    height: auto;
 }
 
 /* 
