@@ -11,6 +11,7 @@
 body {
     max-width: 100vw;
     overflow-x: hidden;
+    background-color: #fafafa;
 }
 
 .row {
@@ -84,11 +85,11 @@ nav {
 .nav__link {
     text-decoration: none;
     color: #221341;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
     line-height: 1.5;
-    margin: 8px 16px;
-    padding-bottom: 4px;
+    margin: 8px 18px;
+    padding-bottom: 3px;
     border-bottom: 2px solid transparent;
 }
 
@@ -97,7 +98,7 @@ nav {
     align-items: center;
 }
 .nav__link--primary {
-    color: #f7fafc;
+    color: #FFFFFF;
     padding: 10px 28px;
     background: #6415ff;
     border-radius: 700px;
@@ -189,6 +190,7 @@ header .row {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 46px;
 }
 
 .header__email {
@@ -197,6 +199,7 @@ header .row {
 }
 
 .header__email--input {
+    box-shadow: 0 5px 10px #00000026;;
     width: 100%;
     padding: 20px 192px 20px 32px;
     border-radius: 500px;
@@ -211,6 +214,7 @@ header .row {
 }
 
 .header__email--btn {
+    box-shadow: 0 6px 12px #6415ff4d;
     position: absolute;
     top: 0;
     right: 0;
@@ -231,7 +235,11 @@ header .row {
 }
 
 .header__content {
-    max-width: 490px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 600px;
 }
 
 .header__title {
@@ -255,18 +263,18 @@ header .row {
     color: #484d4b;
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-top: 50px;
-    margin-bottom: 16px;
+    margin-top: 42px;
+    margin-bottom: 18px;
 }
 
 .header__customers--img {
-    max-width: 100%;
+    max-width: 85%;
     height: auto;
 }
 
 .header__img {
     margin: 0;
-    max-width: 100%;
+    max-width: 60%;
     height: auto;
 }
 
