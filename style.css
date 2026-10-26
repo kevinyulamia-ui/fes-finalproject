@@ -448,6 +448,54 @@ STEPS ↓
     align-items: center;
 }
 
+.steps__img--wrapper {
+    margin: 0;
+    max-width: 480px;
+}
+
+.steps__img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.steps__description {
+    max-width: 480px;
+    margin-left: 48px;
+}
+
+.step {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 16px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #00000014;
+}
+
+.step__number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #6415ff;
+    color: #fff;
+    font-weight: 700;
+}
+
+.step__title {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.step__text {
+    color: #667386;
+    line-height: 1.5;
+}
 
 /* 
 
