@@ -588,6 +588,10 @@ VALUES ↓
     align-items: center;
 }
 
+.value__icon svg {
+    width: 30px;
+    height: 25px;
+}
 
 /*
 
