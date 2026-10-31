@@ -54,7 +54,7 @@ body {
   color: #667386;
   font-size: 18px;
   font-weight: 500;
-  max-width: 80%;
+  max-width: 576px;
   line-height: 1.6;
   margin: 25px 0px;
 }
@@ -976,6 +976,24 @@ MOBILE RESPONSIVENESS ↓
     text-align: center;
   }
 
+  .values__img--wrapper {
+    width: 100%;
+    max-width: 380px;
+  }
+
+  .values__description {
+    max-width: 580px;
+    text-align: center;
+  }
+
+  .value {
+    text-align: center;
+  }
+
+  .value__icon {
+    margin: 0 auto 15px;
+  }
+
   .cta {
     flex-direction: column;
     text-align: center;
@@ -1062,4 +1080,9 @@ MOBILE RESPONSIVENESS ↓
     width: 100%;
     max-width: 512px;
   }
+
+    .values__list {
+    flex-direction: column;
+  }
 }
+
