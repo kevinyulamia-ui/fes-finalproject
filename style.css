@@ -925,10 +925,13 @@ MOBILE RESPONSIVENESS ↓
 }
 
 @media (max-width: 768px) {
-  #quality .row,
+  #quality .row, 
   #values .row {
     flex-direction: column-reverse;
+    align-items: center;
+    gap: 48px;
   }
+  
   #steps .row,
   #testimonials .row {
     flex-direction: column;
@@ -937,6 +940,18 @@ MOBILE RESPONSIVENESS ↓
   #pricing .row {
     margin-top: 40px;
   }
+
+  .quality__description {
+    margin-right: 0;
+    max-width: 576px;
+    text-align: center;
+  }
+
+  .quality__img--wrapper {
+    width: 100%;
+    max-width: 560px;
+  }
+
   .feature {
     width: 50%;
   }
