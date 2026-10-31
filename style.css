@@ -956,6 +956,26 @@ MOBILE RESPONSIVENESS ↓
     width: 50%;
   }
 
+  #steps .row {
+    gap: 52px;
+  }
+
+  .steps__img--wrapper {
+    width: 100%;
+    max-width: 520px;
+  }
+
+  .steps__description {
+    margin-left: 0;
+    width: 100%;
+    max-width: 520px;
+  }
+
+  #steps .section__tag,
+  #steps .section__title {
+    text-align: center;
+  }
+
   .cta {
     flex-direction: column;
     text-align: center;
